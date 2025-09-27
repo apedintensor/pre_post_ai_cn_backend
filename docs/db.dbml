@@ -1,0 +1,168 @@
+////////////////////////////////////////////////////////////
+// Redesigned schema for Reader Study (Pre vs Post AI)
+// Captures: user demographics, study arm assignment, per-phase
+// assessments, ranked diagnoses with mapping metadata, simple
+// management booleans (biopsy/referral), AI outputs snapshot, and block feedback.
+////////////////////////////////////////////////////////////
+
+Enum AssessmentPhase {
+  PRE
+  POST
+}
+
+
+Table users {
+  id integer [primary key]
+  email varchar [unique, not null]
+  password_hash varchar
+  role_id integer [not null]
+  country_code varchar // ISO 3166-1 alpha-2 (e.g., AU, US)
+  // Demographics
+  age_bracket varchar        // e.g. "30-39"
+  years_experience integer   // total years in clinical practice
+  years_derm_experience integer // dermatology-specific years
+  created_at timestamp
+  gender varchar // Allowed: Male | Female | Other
+  note: 'Core user account + augmented demographics for analysis.'
+}
+
+Table roles {
+  id integer [primary key]
+  name varchar [unique, not null] // GP, Nurse, Dermatologist, etc.
+}
+
+Table cases {
+  id integer [primary key]
+  ground_truth_diagnosis_id integer // FK -> diagnosis_terms
+  created_at timestamp
+  ai_predictions_json json         // full model probability vector (term_id -> score). Optional; keeps full distribution for audit/recompute
+  typical_diagnosis boolean         // retained for compatibility/tests; optional
+  // (Removed analysis-only columns: source_dataset, original_source_id, malignancy_flag, superclass)
+  note: 'Core minimal case record. Dataset lineage & analytic flags kept out to avoid bloat.'
+}
+
+// Per-case demographic metadata removed (case_metadata deprecated).
+
+Table diagnosis_terms {
+  id integer [primary key]
+  name varchar [unique, not null]
+  note: 'Canonical set of 134 standardized skin conditions.'
+}
+
+Table diagnosis_synonyms {
+  id integer [primary key]
+  diagnosis_term_id integer [not null]
+  synonym varchar [not null]
+  note: 'Synonyms / abbreviations / aliases used for mapping free text.'
+}
+
+Table images {
+  id integer [primary key]
+  case_id integer [not null, unique]  // one image per case (enforced at app/db level)
+  image_url varchar
+}
+
+Table ai_outputs {
+  id integer [primary key]
+  case_id integer [not null]
+  rank integer
+  prediction_id integer [not null] // FK to diagnosis_terms
+  confidence_score float
+  note: 'Model inference (Top-k) for a case prior to human input. Store only Top-k rows (UI shows Top-5 by default); full vector stored on cases.ai_predictions_json when available.'
+  Indexes {
+    (case_id, rank) [unique]
+    case_id
+  }
+}
+
+Table reader_case_assignments {
+  id integer [primary key]
+  user_id integer [not null]
+  case_id integer [not null]
+  display_order integer         // presentation sequence
+  block_index integer           // 0-based group of 10 cases for feedback
+  started_at timestamp
+  completed_pre_at timestamp
+  completed_post_at timestamp
+  note: 'Links reader to case + assigned arm, tracks timing for phases.'
+  Indexes {
+    (user_id, case_id) [unique]
+    block_index
+  }
+}
+
+Table assessments {
+  id integer [primary key]
+  assignment_id integer [not null] // FK -> reader_case_assignments
+  phase AssessmentPhase [not null]
+  // Minimal fields for Pre-AI assessment (UI requires Top-3 diagnoses + two management choices + confidences)
+  diagnostic_confidence integer    // 1–5 scale (confidence in primary/top diagnosis)
+  management_confidence integer    // 1–5 scale (confidence in management plan)
+  // Replaces legacy biopsy/referral booleans
+  investigation_action varchar     // Enum: NONE | BIOPSY | OTHER
+  next_step_action varchar         // Enum: REASSURE | MANAGE_MYSELF | REFER
+  // Legacy biopsy/referral booleans removed; use investigation_action & next_step_action only
+  // Post-AI only fields (NULL for PRE phase)
+  changed_primary_diagnosis boolean // did AI alter the primary (rank1) diagnosis selection
+  changed_management_plan boolean   // did AI alter biopsy/referral decision or management confidence
+  ai_usefulness varchar             // subjective rating: Very Useful / Somewhat Useful / Not Useful
+  // Per-case correctness flags (computed at write-time)
+  top1_correct boolean             // whether reader's rank-1 equals case.ground_truth_diagnosis_id
+  top3_correct boolean             // whether any of reader's top-3 equals truth
+  rank_of_truth integer            // 1..n or NULL when truth not included in ranked entries
+  created_at timestamp
+  note: 'One row per phase (PRE/POST) per assignment.'
+  Indexes {
+    assignment_id
+    (assignment_id, phase) [unique]
+  }
+}
+
+Table diagnosis_entries {
+  id integer [primary key]
+  assessment_id integer [not null]
+  rank integer             // 1..3 (Top-3). Rank 1 REQUIRED; others optional.
+  raw_text varchar         // user free text before selecting canonical term
+  diagnosis_term_id integer [not null] // final mapped canonical term
+  note: 'User types free text then confirms a canonical term; no fuzzy metadata stored.'
+  Indexes { (assessment_id, rank) [unique] }
+}
+
+// Management strategy / plan tables removed; management captured directly
+// on assessments via biopsy_recommended & referral_recommended fields.
+
+Table block_feedback {
+  id integer [primary key]
+  user_id integer [not null]
+  block_index integer [not null]
+  stats_json json                // full metric bundle
+  top1_accuracy_pre float
+  top1_accuracy_post float
+  top3_accuracy_pre float
+  top3_accuracy_post float
+  delta_top1 float
+  delta_top3 float
+  // Peer group average accuracies (excluding current user)
+  peer_avg_top1_pre float
+  peer_avg_top1_post float
+  peer_avg_top3_pre float
+  peer_avg_top3_post float
+  created_at timestamp
+  note: 'Gamified summary after each 10-case block; drives competition UI.'
+  Indexes { (user_id, block_index) [unique] }
+}
+
+// ------------------ REFERENCES ------------------
+Ref: users.role_id > roles.id
+Ref: cases.ground_truth_diagnosis_id > diagnosis_terms.id
+// Ref: case_metadata.case_id > cases.id (deprecated)
+Ref: images.case_id > cases.id
+Ref: ai_outputs.case_id > cases.id
+Ref: ai_outputs.prediction_id > diagnosis_terms.id
+Ref: diagnosis_synonyms.diagnosis_term_id > diagnosis_terms.id
+Ref: reader_case_assignments.user_id > users.id
+Ref: reader_case_assignments.case_id > cases.id
+Ref: assessments.assignment_id > reader_case_assignments.id
+Ref: diagnosis_entries.assessment_id > assessments.id
+Ref: diagnosis_entries.diagnosis_term_id > diagnosis_terms.id
+Ref: block_feedback.user_id > users.id

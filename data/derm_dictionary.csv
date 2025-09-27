@@ -1,0 +1,143 @@
+id,canonical,type,alias
+0,epidermal cyst,synonym,epidermal inclusion cyst
+0,epidermal cyst,synonym,epidermoid cyst
+1,paronychia,,
+2,ota nevus,,
+3,condyloma,,
+4,keloid,,
+5,alopecia areata,abbreviation,AA
+6,cellulitis,,
+7,pyogenic granuloma,synonym,lobular capillary haemangioma
+7,pyogenic granuloma,synonym,lobular capillary hemangioma
+8,fifth disease,,
+9,dermatofibroma,,
+10,perioral dermatitis,synonym,periorificial dermatitis
+11,squamous cell carcinoma,abbreviation,SCC
+12,wart,,
+13,riehl melanosis,,
+14,urticaria pigmentosa,,
+15,furuncle,,
+16,bullous disease,,
+17,herpes simplex,synonym,herpes simplex virus
+17,herpes simplex,abbreviation,HSV
+18,tinea faciale,,
+19,lupus erythematosus,,
+20,striae distensae,,
+21,hemangioma,,
+22,herpes zoster,synonym,shingles
+22,herpes zoster,abbreviation,HZ
+23,malignant melanoma,,
+24,pityriasis lichenoides et varioliformis acuta,abbreviation,PLEVA
+25,pompholyx,,
+26,nevus spilus,,
+27,juvenile xanthogranuloma,,
+28,actinic keratosis,synonym,solar keratosis
+28,actinic keratosis,abbreviation,AK
+29,nummular eczema,,
+30,folliculitis,,
+31,xerotic eczema,,
+32,subungual hematoma,,
+33,androgenic alopecia,,
+34,prurigo nodularis,,
+35,hand eczema,,
+36,basal cell carcinoma,abbreviation,BCC
+37,melanocytic nevus,,
+38,lymphangioma,,
+39,seborrheic keratosis,,
+40,hypertrophic scar,,
+41,idiopathic guttate hypomelanosis,,
+42,keratoderma,,
+43,erythema ab igne,,
+44,lichen striatus,,
+45,ingrowing nail,,
+46,varicella,,
+47,cafe au lait macule,,
+48,poikiloderma,,
+49,morphea,,
+50,eczema herpeticum,,
+51,milia,,
+52,nail dystrophy,,
+53,lichen nitidus,,
+54,acanthosis nigricans,,
+55,angular cheilitis,,
+56,confluent and reticulated papillomatosis,,
+57,syringoma,,
+58,mucous cyst,,
+59,becker nevus,,
+60,tinea versicolor,synonym,pityriasis versicolor
+61,psoriasis,,
+62,port wine stain,,
+63,neurofibromatosis,,
+64,tinea cruris,synonym,dhobi itch
+64,tinea cruris,synonym,groin tinea
+64,tinea cruris,synonym,jock itch
+64,tinea cruris,synonym,tinea inguinalis
+65,xanthelasma,,
+66,molluscum contagiosum,abbreviation,MC
+67,erythema annulare centrifugum,,
+68,onychomycosis,synonym,tinea unguium
+69,scabies,,
+70,neurofibroma,,
+71,mucosal melanotic macule,,
+72,rosacea,,
+73,keratoacanthoma,,
+74,angiofibroma,,
+75,melanonychia,,
+76,organoid nevus,,
+77,nevus depigmentosus,,
+78,epidermal nevus,,
+79,tinea corporis,,
+80,drug eruption,,
+81,freckle,,
+82,vitiligo,,
+83,poroma,,
+84,pityriasis alba,,
+85,viral exanthem,,
+86,blue nevus,,
+87,acne,,
+88,venous lake,,
+89,atopic dermatitis,synonym,atopic eczema
+90,seborrheic dermatitis,,
+91,lichen planus,,
+92,exfoliative dermatitis,,
+93,melasma,,
+94,abscess,,
+95,acute generalized exanthematous pustulosis,,
+96,urticarial vasculitis,,
+97,vasculitis,,
+98,prurigo pigmentosa,,
+99,impetigo,,
+100,pityriasis lichenoides chronica,abbreviation,PLC
+101,bowen disease,,
+102,granuloma annulare,,
+103,amyloidosis,,
+104,urticaria,,
+105,keratosis pilaris,abbreviation,KP
+106,livedo reticularis,,
+107,steatocystoma multiplex,,
+108,pityriasis rosea,,
+109,mucocele,,
+110,erythema multiforme,,
+111,sebaceous hyperplasia,,
+112,palmoplantar pustulosis,,
+113,porokeratosis,,
+114,lentigo,,
+115,erythema nodosum,,
+116,inflammed cyst,,
+117,staphylococcal scalded skin syndrome,,
+118,contact dermatitis,,
+119,verruca plana,,
+120,congenital nevus,,
+121,lichen simplex chronicus,,
+122,guttate psoriasis,,
+123,angiokeratoma,,
+124,tinea pedis,synonym,athlete's foot
+125,insect bite,,
+126,pigmented progressive purpuric dermatosis,,
+127,pyoderma gangrenosum,,
+128,skin tag,,
+129,lichen amyloidosis,,
+130,abnormal,,
+131,onycholysis,,
+132,pustular psoriasis,,
+133,telangiectasia,,

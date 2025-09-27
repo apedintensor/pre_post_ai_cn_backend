@@ -1,0 +1,853 @@
+[
+  {
+    "id": 0,
+    "canonical": "epidermal cyst",
+    "synonyms": [
+      "epidermal inclusion cyst",
+      "epidermoid cyst"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 1,
+    "canonical": "paronychia",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 2,
+    "canonical": "ota nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 3,
+    "canonical": "condyloma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 4,
+    "canonical": "keloid",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 5,
+    "canonical": "alopecia areata",
+    "synonyms": [],
+    "abbreviations": [
+      "AA"
+    ]
+  },
+  {
+    "id": 6,
+    "canonical": "cellulitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 7,
+    "canonical": "pyogenic granuloma",
+    "synonyms": [
+      "lobular capillary haemangioma",
+      "lobular capillary hemangioma"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 8,
+    "canonical": "fifth disease",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 9,
+    "canonical": "dermatofibroma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 10,
+    "canonical": "perioral dermatitis",
+    "synonyms": [
+      "periorificial dermatitis"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 11,
+    "canonical": "squamous cell carcinoma",
+    "synonyms": [],
+    "abbreviations": [
+      "SCC"
+    ]
+  },
+  {
+    "id": 12,
+    "canonical": "wart",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 13,
+    "canonical": "riehl melanosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 14,
+    "canonical": "urticaria pigmentosa",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 15,
+    "canonical": "furuncle",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 16,
+    "canonical": "bullous disease",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 17,
+    "canonical": "herpes simplex",
+    "synonyms": [
+      "herpes simplex virus"
+    ],
+    "abbreviations": [
+      "HSV"
+    ]
+  },
+  {
+    "id": 18,
+    "canonical": "tinea faciale",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 19,
+    "canonical": "lupus erythematosus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 20,
+    "canonical": "striae distensae",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 21,
+    "canonical": "hemangioma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 22,
+    "canonical": "herpes zoster",
+    "synonyms": [
+      "shingles"
+    ],
+    "abbreviations": [
+      "HZ"
+    ]
+  },
+  {
+    "id": 23,
+    "canonical": "malignant melanoma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 24,
+    "canonical": "pityriasis lichenoides et varioliformis acuta",
+    "synonyms": [],
+    "abbreviations": [
+      "PLEVA"
+    ]
+  },
+  {
+    "id": 25,
+    "canonical": "pompholyx",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 26,
+    "canonical": "nevus spilus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 27,
+    "canonical": "juvenile xanthogranuloma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 28,
+    "canonical": "actinic keratosis",
+    "synonyms": [
+      "solar keratosis"
+    ],
+    "abbreviations": [
+      "AK"
+    ]
+  },
+  {
+    "id": 29,
+    "canonical": "nummular eczema",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 30,
+    "canonical": "folliculitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 31,
+    "canonical": "xerotic eczema",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 32,
+    "canonical": "subungual hematoma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 33,
+    "canonical": "androgenic alopecia",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 34,
+    "canonical": "prurigo nodularis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 35,
+    "canonical": "hand eczema",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 36,
+    "canonical": "basal cell carcinoma",
+    "synonyms": [],
+    "abbreviations": [
+      "BCC"
+    ]
+  },
+  {
+    "id": 37,
+    "canonical": "melanocytic nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 38,
+    "canonical": "lymphangioma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 39,
+    "canonical": "seborrheic keratosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 40,
+    "canonical": "hypertrophic scar",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 41,
+    "canonical": "idiopathic guttate hypomelanosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 42,
+    "canonical": "keratoderma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 43,
+    "canonical": "erythema ab igne",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 44,
+    "canonical": "lichen striatus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 45,
+    "canonical": "ingrowing nail",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 46,
+    "canonical": "varicella",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 47,
+    "canonical": "cafe au lait macule",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 48,
+    "canonical": "poikiloderma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 49,
+    "canonical": "morphea",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 50,
+    "canonical": "eczema herpeticum",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 51,
+    "canonical": "milia",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 52,
+    "canonical": "nail dystrophy",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 53,
+    "canonical": "lichen nitidus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 54,
+    "canonical": "acanthosis nigricans",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 55,
+    "canonical": "angular cheilitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 56,
+    "canonical": "confluent and reticulated papillomatosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 57,
+    "canonical": "syringoma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 58,
+    "canonical": "mucous cyst",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 59,
+    "canonical": "becker nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 60,
+    "canonical": "tinea versicolor",
+    "synonyms": [
+      "pityriasis versicolor"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 61,
+    "canonical": "psoriasis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 62,
+    "canonical": "port wine stain",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 63,
+    "canonical": "neurofibromatosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 64,
+    "canonical": "tinea cruris",
+    "synonyms": [
+      "dhobi itch",
+      "groin tinea",
+      "jock itch",
+      "tinea inguinalis"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 65,
+    "canonical": "xanthelasma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 66,
+    "canonical": "molluscum contagiosum",
+    "synonyms": [],
+    "abbreviations": [
+      "MC"
+    ]
+  },
+  {
+    "id": 67,
+    "canonical": "erythema annulare centrifugum",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 68,
+    "canonical": "onychomycosis",
+    "synonyms": [
+      "tinea unguium"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 69,
+    "canonical": "scabies",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 70,
+    "canonical": "neurofibroma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 71,
+    "canonical": "mucosal melanotic macule",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 72,
+    "canonical": "rosacea",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 73,
+    "canonical": "keratoacanthoma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 74,
+    "canonical": "angiofibroma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 75,
+    "canonical": "melanonychia",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 76,
+    "canonical": "organoid nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 77,
+    "canonical": "nevus depigmentosus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 78,
+    "canonical": "epidermal nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 79,
+    "canonical": "tinea corporis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 80,
+    "canonical": "drug eruption",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 81,
+    "canonical": "freckle",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 82,
+    "canonical": "vitiligo",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 83,
+    "canonical": "poroma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 84,
+    "canonical": "pityriasis alba",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 85,
+    "canonical": "viral exanthem",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 86,
+    "canonical": "blue nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 87,
+    "canonical": "acne",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 88,
+    "canonical": "venous lake",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 89,
+    "canonical": "atopic dermatitis",
+    "synonyms": [
+      "atopic eczema"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 90,
+    "canonical": "seborrheic dermatitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 91,
+    "canonical": "lichen planus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 92,
+    "canonical": "exfoliative dermatitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 93,
+    "canonical": "melasma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 94,
+    "canonical": "abscess",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 95,
+    "canonical": "acute generalized exanthematous pustulosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 96,
+    "canonical": "urticarial vasculitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 97,
+    "canonical": "vasculitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 98,
+    "canonical": "prurigo pigmentosa",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 99,
+    "canonical": "impetigo",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 100,
+    "canonical": "pityriasis lichenoides chronica",
+    "synonyms": [],
+    "abbreviations": [
+      "PLC"
+    ]
+  },
+  {
+    "id": 101,
+    "canonical": "bowen disease",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 102,
+    "canonical": "granuloma annulare",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 103,
+    "canonical": "amyloidosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 104,
+    "canonical": "urticaria",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 105,
+    "canonical": "keratosis pilaris",
+    "synonyms": [],
+    "abbreviations": [
+      "KP"
+    ]
+  },
+  {
+    "id": 106,
+    "canonical": "livedo reticularis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 107,
+    "canonical": "steatocystoma multiplex",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 108,
+    "canonical": "pityriasis rosea",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 109,
+    "canonical": "mucocele",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 110,
+    "canonical": "erythema multiforme",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 111,
+    "canonical": "sebaceous hyperplasia",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 112,
+    "canonical": "palmoplantar pustulosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 113,
+    "canonical": "porokeratosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 114,
+    "canonical": "lentigo",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 115,
+    "canonical": "erythema nodosum",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 116,
+    "canonical": "inflammed cyst",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 117,
+    "canonical": "staphylococcal scalded skin syndrome",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 118,
+    "canonical": "contact dermatitis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 119,
+    "canonical": "verruca plana",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 120,
+    "canonical": "congenital nevus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 121,
+    "canonical": "lichen simplex chronicus",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 122,
+    "canonical": "guttate psoriasis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 123,
+    "canonical": "angiokeratoma",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 124,
+    "canonical": "tinea pedis",
+    "synonyms": [
+      "athlete's foot"
+    ],
+    "abbreviations": []
+  },
+  {
+    "id": 125,
+    "canonical": "insect bite",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 126,
+    "canonical": "pigmented progressive purpuric dermatosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 127,
+    "canonical": "pyoderma gangrenosum",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 128,
+    "canonical": "skin tag",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 129,
+    "canonical": "lichen amyloidosis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 130,
+    "canonical": "abnormal",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 131,
+    "canonical": "onycholysis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 132,
+    "canonical": "pustular psoriasis",
+    "synonyms": [],
+    "abbreviations": []
+  },
+  {
+    "id": 133,
+    "canonical": "telangiectasia",
+    "synonyms": [],
+    "abbreviations": []
+  }
+]

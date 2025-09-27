@@ -1,0 +1,96 @@
+class_id,disease_condition
+1,acanthosis nigricans
+3,actinic keratosis
+4,acute generalized exanthematous pustulosis
+5,alopecia areata
+6,amyloidosis
+7,androgenic alopecia
+9,angiokeratoma
+10,angular cheilitis
+12,basal cell carcinoma
+14,blue nevus
+21,dermatofibroma
+22,eczema herpeticum
+23,epidermal cyst
+29,folliculitis
+30,freckle
+33,hand eczema
+35,herpes simplex
+38,ingrowing nail
+39,juvenile xanthogranuloma
+45,lichen striatus
+46,livedo reticularis
+52,molluscum contagiosum
+54,mucosal melanotic macule
+55,mucous cyst
+56,nail dystrophy
+59,nevus depigmentosus
+60,nevus spilus
+61,onychomycosis
+62,paronychia
+63,perioral dermatitis
+64,pigmented progressive purpuric dermatosis
+69,poikiloderma
+71,port wine stain
+73,pyoderma gangrenosum
+74,pyogenic granuloma
+75,riehl melanosis
+79,seborrheic keratosis
+80,skin tag
+82,striae distensae
+86,tinea pedis
+87,tinea versicolor
+88,urticaria
+90,varicella
+92,venous lake
+94,xanthelasma
+43,lichen planus
+68,pityriasis rosea
+15,bowen disease
+49,malignant melanoma
+11,atopic dermatitis
+85,tinea corporis
+77,scabies
+0,abnormal
+2,acne
+8,angiofibroma
+13,becker nevus
+16,cellulitis
+17,condyloma
+18,confluent and reticulated papillomatosis
+19,congenital nevus
+20,contact dermatitis
+24,erythema ab igne
+25,erythema annulare centrifugum
+26,erythema multiforme
+27,erythema nodosum
+28,fifth disease
+31,granuloma annulare
+32,guttate psoriasis
+34,hemangioma
+36,hypertrophic scar
+37,impetigo
+40,keloid
+41,lentigo
+42,lichen nitidus
+44,lichen simplex chronicus
+47,lupus erythematosus
+48,lymphangioma
+50,melanocytic nevus
+51,milia
+53,morphea
+57,neurofibroma
+58,neurofibromatosis
+65,pityriasis alba
+66,pityriasis lichenoides chronica
+67,pityriasis lichenoides et varioliformis acuta
+70,pompholyx
+72,pustular psoriasis
+76,rosacea
+78,sebaceous hyperplasia
+81,squamous cell carcinoma
+83,subungual hematoma
+84,syringoma
+89,urticaria pigmentosa
+91,vasculitis
+93,viral exanthem

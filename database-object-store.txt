@@ -1,0 +1,10 @@
+fly mpg connect --cluster 3x9jv02pn6pr6qp7
+postgresql://fly-user:csE4z429Mcth4wGLuWBjuPzs@pgbouncer.3x9jv02pn6pr6qp7.flympg.net/fly-db
+
+
+Setting the following secrets on reader-study:
+AWS_ACCESS_KEY_ID: tid_LfGPUUwwdgNxLUdLGJmAeGLubolfkZEAzBBMQhAuAVkYJfImAk
+AWS_ENDPOINT_URL_S3: https://fly.storage.tigris.dev
+AWS_REGION: auto
+AWS_SECRET_ACCESS_KEY: tsec_im2xMxk194uRzlHTbUFs5EVCsSRTka9mM7250XnYz+DNPuW26e8W4IAvLduNKEvov+xitl
+BUCKET_NAME: reader-study-bucket

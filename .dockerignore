@@ -1,0 +1,13 @@
+fly.toml
+.git/
+__pycache__/
+.envrc
+.venv/
+.env
+*.pyc
+tests/
+docs/
+frontend_dist/
+*.db
+*.sqlite
+uv.lock
