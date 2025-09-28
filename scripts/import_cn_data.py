@@ -234,7 +234,8 @@ def import_cn(db: Session) -> None:
     deleted = reset_old_case_data(db)
 
     # 1) Roles
-    roles_added = ensure_roles(db, ["GP", "Nurse", "Other"])  # harmless if already present
+    # Seed roles with Chinese labels for CN site
+    roles_added = ensure_roles(db, ["医生", "护士", "其他"])  # harmless if already present
 
     # 2) CN terms & synonyms
     cn_entries = load_cn_terms(CN_TERMS_PATH)

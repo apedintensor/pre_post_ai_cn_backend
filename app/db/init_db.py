@@ -8,6 +8,8 @@ from sqlalchemy.orm import Session
 from app.auth.models import User
 from app.core.config import settings
 from app.db.session import async_engine, sync_engine
+from sqlalchemy import select
+from app.models.models import Role
 from app.db.base import Base
 from app.auth.schemas import UserCreate
 from app.auth.manager import UserManager
@@ -26,13 +28,24 @@ async def create_initial_superuser(db: AsyncSession):
         user_manager = UserManager(user_db)
         
         # Create superuser
+        # Try to find the 医生 role to assign to superuser; fallback to role_id=1
+        doctor_role_id = 1
+        try:
+            # Use a short-lived sync query via async session to fetch roles
+            res = await db.execute(select(Role).where(Role.name == "医生"))
+            role = res.scalars().first()
+            if role:
+                doctor_role_id = role.id
+        except Exception:
+            pass
+
         superuser_data = UserCreate(
             email=settings.SUPERUSER_EMAIL,
             password=settings.SUPERUSER_PASSWORD,
             is_superuser=True,
             is_active=True,
             is_verified=True,
-            role_id=1,  # Admin role ID
+            role_id=doctor_role_id,  # Assign to 医生 role when available
         )
         
         try:
@@ -53,20 +66,29 @@ async def init_db():
     async with async_engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
     
-    # Create initial data using sync session for compatibility with existing CRUD
+    # Create initial data using sync session for simple seeding
     from app.db.session import SessionLocal
     db = SessionLocal()
     try:
-        # No automatic role creation anymore; close sync session immediately
-        db.close()
+        # Seed CN roles if missing
+        existing = {r.name for r in db.query(Role).all()}
+        desired = ["医生", "护士", "其他"]
+        created = 0
+        for name in desired:
+            if name not in existing:
+                db.add(Role(name=name))
+                created += 1
+        if created:
+            db.commit()
         
         # Create superuser using async session
         async with AsyncSession(async_engine) as async_session:
             await create_initial_superuser(async_session)
-            
         print("Database initialization completed")
     except Exception as e:
         print(f"Error during database initialization: {e}")
+    finally:
+        db.close()
         
         
 # Run the initialization directly if script is executed
