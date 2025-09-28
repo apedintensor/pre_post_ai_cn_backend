@@ -1,0 +1,754 @@
+[
+  {
+    "id": 0,
+    "canonical_en": "subungual hematoma",
+    "canonical_zh": "甲下血肿",
+    "synonyms_zh": [
+      "指甲下瘀血"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 1,
+    "canonical_en": "wart",
+    "canonical_zh": "疣",
+    "synonyms_zh": [
+      "寻常疣",
+      "丝状疣",
+      "扁平疣",
+      "跖疣",
+      "瘊子"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 2,
+    "canonical_en": "verruca plana",
+    "canonical_zh": "扁平疣",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 3,
+    "canonical_en": "steatocystoma multiplex",
+    "canonical_zh": "多发性皮脂囊肿",
+    "synonyms_zh": [
+      "多发性脂囊瘤"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 4,
+    "canonical_en": "skin tag",
+    "canonical_zh": "皮赘",
+    "synonyms_zh": [
+      "软垂疣",
+      "软纤维瘤",
+      "小肉粒"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 5,
+    "canonical_en": "congenital nevus",
+    "canonical_zh": "先天性痣",
+    "synonyms_zh": [
+      "先天性黑色素细胞痣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 6,
+    "canonical_en": "organoid nevus",
+    "canonical_zh": "器官样痣",
+    "synonyms_zh": [
+      "皮脂腺痣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 7,
+    "canonical_en": "seborrheic keratosis",
+    "canonical_zh": "脂溢性角化",
+    "synonyms_zh": [
+      "老年疣",
+      "老年斑"
+    ],
+    "abbreviations_zh": [
+      "SK"
+    ]
+  },
+  {
+    "id": 8,
+    "canonical_en": "neurofibroma",
+    "canonical_zh": "神经纤维瘤",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 9,
+    "canonical_en": "hemangioma",
+    "canonical_zh": "血管瘤",
+    "synonyms_zh": [
+      "草莓状血管瘤",
+      "樱桃状血管瘤"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 10,
+    "canonical_en": "lymphangioma",
+    "canonical_zh": "淋巴管瘤",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 11,
+    "canonical_en": "angiokeratoma",
+    "canonical_zh": "血管角化瘤",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 12,
+    "canonical_en": "epidermal cyst",
+    "canonical_zh": "表皮样囊肿",
+    "synonyms_zh": [
+      "粉瘤",
+      "皮脂腺囊肿"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 13,
+    "canonical_en": "sebaceous hyperplasia",
+    "canonical_zh": "皮脂腺增生",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 14,
+    "canonical_en": "xanthelasma",
+    "canonical_zh": "眼睑黄斑瘤",
+    "synonyms_zh": [
+      "黄瘤"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 15,
+    "canonical_en": "epidermal nevus",
+    "canonical_zh": "表皮痣",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 16,
+    "canonical_en": "angiofibroma",
+    "canonical_zh": "血管纤维瘤",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 17,
+    "canonical_en": "juvenile xanthogranuloma",
+    "canonical_zh": "幼年性黄色肉芽肿",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "JXG"
+    ]
+  },
+  {
+    "id": 18,
+    "canonical_en": "becker nevus",
+    "canonical_zh": "贝克痣",
+    "synonyms_zh": [
+      "Becker氏母斑"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 19,
+    "canonical_en": "pyogenic granuloma",
+    "canonical_zh": "化脓性肉芽肿",
+    "synonyms_zh": [
+      "毛细血管扩张性肉芽肿"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 20,
+    "canonical_en": "melanocytic nevus",
+    "canonical_zh": "黑色素细胞痣",
+    "synonyms_zh": [
+      "色素痣",
+      "痣",
+      "黑痣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 21,
+    "canonical_en": "nevus spilus",
+    "canonical_zh": "斑点状雀斑样痣",
+    "synonyms_zh": [
+      "斑痣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 22,
+    "canonical_en": "neurofibromatosis",
+    "canonical_zh": "神经纤维瘤病",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "NF"
+    ]
+  },
+  {
+    "id": 23,
+    "canonical_en": "blue nevus",
+    "canonical_zh": "蓝痣",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 24,
+    "canonical_en": "actinic keratosis",
+    "canonical_zh": "日光性角化",
+    "synonyms_zh": [
+      "光化性角化"
+    ],
+    "abbreviations_zh": [
+      "AK"
+    ]
+  },
+  {
+    "id": 25,
+    "canonical_en": "lentigo",
+    "canonical_zh": "雀斑样痣",
+    "synonyms_zh": [
+      "老年斑",
+      "晒斑"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 26,
+    "canonical_en": "dermatofibroma",
+    "canonical_zh": "皮肤纤维瘤",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 27,
+    "canonical_en": "tinea corporis",
+    "canonical_zh": "体癣",
+    "synonyms_zh": [
+      "圆癣",
+      "金钱癣",
+      "牛皮癣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 28,
+    "canonical_en": "tinea faciale",
+    "canonical_zh": "面癣",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 29,
+    "canonical_en": "tinea cruris",
+    "canonical_zh": "股癣",
+    "synonyms_zh": [
+      "阴癣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 30,
+    "canonical_en": "tinea pedis",
+    "canonical_zh": "足癣",
+    "synonyms_zh": [
+      "香港脚",
+      "脚气"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 31,
+    "canonical_en": "onychomycosis",
+    "canonical_zh": "甲癣",
+    "synonyms_zh": [
+      "甲真菌病",
+      "灰指甲"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 32,
+    "canonical_en": "tinea versicolor",
+    "canonical_zh": "花斑癣",
+    "synonyms_zh": [
+      "汗斑"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 33,
+    "canonical_en": "malignant melanoma",
+    "canonical_zh": "恶性黑色素瘤",
+    "synonyms_zh": [
+      "黑色素瘤"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 34,
+    "canonical_en": "squamous cell carcinoma",
+    "canonical_zh": "鳞状细胞癌",
+    "synonyms_zh": [
+      "鳞癌"
+    ],
+    "abbreviations_zh": [
+      "SCC",
+      "鳞癌"
+    ]
+  },
+  {
+    "id": 35,
+    "canonical_en": "basal cell carcinoma",
+    "canonical_zh": "基底细胞癌",
+    "synonyms_zh": [
+      "基癌"
+    ],
+    "abbreviations_zh": [
+      "BCC",
+      "基癌"
+    ]
+  },
+  {
+    "id": 36,
+    "canonical_en": "keratoacanthoma",
+    "canonical_zh": "角化棘皮瘤",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "KA"
+    ]
+  },
+  {
+    "id": 37,
+    "canonical_en": "bowen disease",
+    "canonical_zh": "鲍温病",
+    "synonyms_zh": [
+      "原位鳞状细胞癌",
+      "Bowen氏病"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 38,
+    "canonical_en": "urticaria pigmentosa",
+    "canonical_zh": "色素性荨麻疹",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 39,
+    "canonical_en": "pompholyx",
+    "canonical_zh": "汗疱疹",
+    "synonyms_zh": [
+      "出汗障碍性湿疹"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 40,
+    "canonical_en": "urticaria",
+    "canonical_zh": "荨麻疹",
+    "synonyms_zh": [
+      "风疹块",
+      "风团"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 41,
+    "canonical_en": "acute generalized exanthematous pustulosis",
+    "canonical_zh": "急性泛发性发疹性脓疱病",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "AGEP"
+    ]
+  },
+  {
+    "id": 42,
+    "canonical_en": "vitiligo",
+    "canonical_zh": "白癜风",
+    "synonyms_zh": [
+      "白斑"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 43,
+    "canonical_en": "xerotic eczema",
+    "canonical_zh": "干性湿疹",
+    "synonyms_zh": [
+      "冬季湿疹"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 44,
+    "canonical_en": "pyoderma gangrenosum",
+    "canonical_zh": "坏疽性脓皮病",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "PG"
+    ]
+  },
+  {
+    "id": 45,
+    "canonical_en": "contact dermatitis",
+    "canonical_zh": "接触性皮炎",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 46,
+    "canonical_en": "alopecia areata",
+    "canonical_zh": "斑秃",
+    "synonyms_zh": [
+      "鬼剃头"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 47,
+    "canonical_en": "hand eczema",
+    "canonical_zh": "手部湿疹",
+    "synonyms_zh": [
+      "手部皮炎"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 48,
+    "canonical_en": "exfoliative dermatitis",
+    "canonical_zh": "剥脱性皮炎",
+    "synonyms_zh": [
+      "红皮病"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 49,
+    "canonical_en": "nummular eczema",
+    "canonical_zh": "钱币状湿疹",
+    "synonyms_zh": [
+      "盘状湿疹"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 50,
+    "canonical_en": "lichen planus",
+    "canonical_zh": "扁平苔藓",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "LP"
+    ]
+  },
+  {
+    "id": 51,
+    "canonical_en": "erythema annulare centrifugum",
+    "canonical_zh": "离心性环状红斑",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "EAC"
+    ]
+  },
+  {
+    "id": 52,
+    "canonical_en": "seborrheic dermatitis",
+    "canonical_zh": "脂溢性皮炎",
+    "synonyms_zh": [
+      "头皮屑"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 53,
+    "canonical_en": "granuloma annulare",
+    "canonical_zh": "环状肉芽肿",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "GA"
+    ]
+  },
+  {
+    "id": 54,
+    "canonical_en": "pustular psoriasis",
+    "canonical_zh": "脓疱型银屑病",
+    "synonyms_zh": [
+      "脓疱型牛皮癣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 55,
+    "canonical_en": "palmoplantar pustulosis",
+    "canonical_zh": "掌跖脓疱病",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "PPP"
+    ]
+  },
+  {
+    "id": 56,
+    "canonical_en": "lupus erythematosus",
+    "canonical_zh": "红斑狼疮",
+    "synonyms_zh": [
+      "狼疮"
+    ],
+    "abbreviations_zh": [
+      "LE"
+    ]
+  },
+  {
+    "id": 57,
+    "canonical_en": "insect bite",
+    "canonical_zh": "虫咬皮炎",
+    "synonyms_zh": [
+      "丘疹性荨麻疹",
+      "蚊子包"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 58,
+    "canonical_en": "lichen amyloidosis",
+    "canonical_zh": "淀粉样变性苔藓",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 59,
+    "canonical_en": "lichen simplex chronicus",
+    "canonical_zh": "慢性单纯性苔藓",
+    "synonyms_zh": [
+      "神经性皮炎"
+    ],
+    "abbreviations_zh": [
+      "LSC"
+    ]
+  },
+  {
+    "id": 60,
+    "canonical_en": "drug eruption",
+    "canonical_zh": "药疹",
+    "synonyms_zh": [
+      "药物性皮炎"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 61,
+    "canonical_en": "morphea",
+    "canonical_zh": "硬斑病",
+    "synonyms_zh": [
+      "局限性硬皮病"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 62,
+    "canonical_en": "psoriasis",
+    "canonical_zh": "银屑病",
+    "synonyms_zh": [
+      "牛皮癣"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 63,
+    "canonical_en": "erythema multiforme",
+    "canonical_zh": "多形红斑",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "EM"
+    ]
+  },
+  {
+    "id": 64,
+    "canonical_en": "vasculitis",
+    "canonical_zh": "血管炎",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 65,
+    "canonical_en": "amyloidosis",
+    "canonical_zh": "淀粉样变性",
+    "synonyms_zh": [
+      "类淀粉沉积症"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 66,
+    "canonical_en": "confluent and reticulated papillomatosis",
+    "canonical_zh": "融合性网状乳头瘤病",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "CARP"
+    ]
+  },
+  {
+    "id": 67,
+    "canonical_en": "folliculitis",
+    "canonical_zh": "毛囊炎",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 68,
+    "canonical_en": "furuncle",
+    "canonical_zh": "疖",
+    "synonyms_zh": [
+      "疖子",
+      "火疖子"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 69,
+    "canonical_en": "inflamed cyst",
+    "canonical_zh": "炎性囊肿",
+    "synonyms_zh": [
+      "发炎的囊肿"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 70,
+    "canonical_en": "paronychia",
+    "canonical_zh": "甲沟炎",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 71,
+    "canonical_en": "cellulitis",
+    "canonical_zh": "蜂窝织炎",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 72,
+    "canonical_en": "abscess",
+    "canonical_zh": "脓肿",
+    "synonyms_zh": [
+      "脓包"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 73,
+    "canonical_en": "prurigo pigmentosa",
+    "canonical_zh": "色素性痒疹",
+    "synonyms_zh": [
+      "生酮疹"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 74,
+    "canonical_en": "impetigo",
+    "canonical_zh": "脓疱疮",
+    "synonyms_zh": [
+      "黄水疮"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 75,
+    "canonical_en": "acne",
+    "canonical_zh": "痤疮",
+    "synonyms_zh": [
+      "青春痘",
+      "粉刺"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 76,
+    "canonical_en": "staphylococcal scalded skin syndrome",
+    "canonical_zh": "葡萄球菌性烫伤样皮肤综合征",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "SSSS"
+    ]
+  },
+  {
+    "id": 77,
+    "canonical_en": "herpes zoster",
+    "canonical_zh": "带状疱疹",
+    "synonyms_zh": [
+      "生蛇",
+      "缠腰龙"
+    ],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 78,
+    "canonical_en": "herpes simplex",
+    "canonical_zh": "单纯疱疹",
+    "synonyms_zh": [],
+    "abbreviations_zh": [
+      "HSV"
+    ]
+  },
+  {
+    "id": 79,
+    "canonical_en": "varicella",
+    "canonical_zh": "水痘",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 80,
+    "canonical_en": "eczema herpeticum",
+    "canonical_zh": "疱疹性湿疹",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 81,
+    "canonical_en": "atopic dermatitis",
+    "canonical_zh": "特应性皮炎",
+    "synonyms_zh": [
+      "特应性湿疹"
+    ],
+    "abbreviations_zh": [
+      "AD"
+    ]
+  },
+  {
+    "id": 82,
+    "canonical_en": "scabies",
+    "canonical_zh": "疥疮",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  },
+  {
+    "id": 83,
+    "canonical_en": "pityriasis rosea",
+    "canonical_zh": "玫瑰糠疹",
+    "synonyms_zh": [],
+    "abbreviations_zh": []
+  }
+]

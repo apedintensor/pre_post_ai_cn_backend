@@ -153,7 +153,8 @@ def finalize_block_if_complete(db: Session, user_id: int, block_index: int):
             if not gt_id:
                 continue
             entries = db.execute(select(_DE).where(_DE.assessment_id == ass.id).order_by(_DE.rank.asc())).scalars().all()
-            top_ids = [e.diagnosis_term_id for e in entries]
+            # Consider only mapped entries; free-text rows without mapping are ignored for correctness metrics
+            top_ids = [e.diagnosis_term_id for e in entries if e.diagnosis_term_id is not None]
             if not top_ids:
                 continue
             top1_ok = top_ids[0] == gt_id

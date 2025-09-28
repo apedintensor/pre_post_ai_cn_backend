@@ -121,9 +121,11 @@ Table assessments {
 Table diagnosis_entries {
   id integer [primary key]
   assessment_id integer [not null]
-  rank integer             // 1..3 (Top-3). Rank 1 REQUIRED; others optional.
+    rank integer             // 1..3 (Top-3). Rank 1 REQUIRED; others optional.
+    // CN free-text flow: mapping to diagnosis_terms is optional
+    // rank may be retained or ignored; if ignored, enforce one row per assessment via unique index
   raw_text varchar         // user free text before selecting canonical term
-  diagnosis_term_id integer [not null] // final mapped canonical term
+  diagnosis_term_id integer            // optional mapped canonical term (nullable)
   note: 'User types free text then confirms a canonical term; no fuzzy metadata stored.'
   Indexes { (assessment_id, rank) [unique] }
 }

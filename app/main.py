@@ -27,7 +27,9 @@ app = FastAPI(title=settings.PROJECT_NAME)
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with specific origins
+    # Use settings-driven origins so Fly secret CORS_ORIGINS can control this.
+    # Example secret value: ["https://your-frontend.fly.dev", "https://www.example.com"]
+    allow_origins=settings.CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

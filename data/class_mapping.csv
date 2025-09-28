@@ -1,0 +1,85 @@
+﻿class_id,disease_condition
+0,subungual hematoma
+1,wart
+2,verruca plana
+3,steatocystoma multiplex
+4,skin tag
+5,congenital nevus
+6,organoid nevus
+7,seborrheic keratosis
+8,neurofibroma
+9,hemangioma
+10,lymphangioma
+11,angiokeratoma
+12,epidermal cyst
+13,sebaceous hyperplasia
+14,xanthelasma
+15,epidermal nevus
+16,angiofibroma
+17,juvenile xanthogranuloma
+18,becker nevus
+19,pyogenic granuloma
+20,melanocytic nevus
+21,nevus spilus
+22,neurofibromatosis
+23,blue nevus
+24,actinic keratosis
+25,lentigo
+26,dermatofibroma
+27,tinea corporis
+28,tinea faciale
+29,tinea cruris
+30,tinea pedis
+31,onychomycosis
+32,tinea versicolor
+33,malignant melanoma
+34,squamous cell carcinoma
+35,basal cell carcinoma
+36,keratoacanthoma
+37,bowen disease
+38,urticaria pigmentosa
+39,pompholyx
+40,urticaria
+41,acute generalized exanthematous pustulosis
+42,vitiligo
+43,xerotic eczema
+44,pyoderma gangrenosum
+45,contact dermatitis
+46,alopecia areata
+47,hand eczema
+48,exfoliative dermatitis
+49,nummular eczema
+50,lichen planus
+51,erythema annulare centrifugum
+52,seborrheic dermatitis
+53,granuloma annulare
+54,pustular psoriasis
+55,palmoplantar pustulosis
+56,lupus erythematosus
+57,insect bite
+58,lichen amyloidosis
+59,lichen simplex chronicus
+60,drug eruption
+61,morphea
+62,psoriasis
+63,erythema multiforme
+64,vasculitis
+65,amyloidosis
+66,confluent and reticulated papillomatosis
+67,folliculitis
+68,furuncle
+69,inflammed cyst
+70,paronychia
+71,cellulitis
+72,abscess
+73,prurigo pigmentosa
+74,impetigo
+75,acne
+76,staphylococcal scalded skin syndrome
+77,herpes zoster
+78,herpes simplex
+79,varicella
+80,eczema herpeticum
+81,atopic dermatitis
+82,scabies
+83,pityriasis rosea

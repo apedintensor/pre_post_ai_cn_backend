@@ -156,7 +156,7 @@ class ReaderCaseAssignmentRead(BaseModel):
 class DiagnosisEntryCreate(BaseModel):
     rank: int
     raw_text: Optional[str] = None  # what the user typed initially
-    diagnosis_term_id: int          # final selected canonical term
+    diagnosis_term_id: Optional[int] = None  # optional mapping to canonical term
 
 
 class DiagnosisEntryRead(DiagnosisEntryCreate):

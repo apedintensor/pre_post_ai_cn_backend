@@ -91,7 +91,8 @@ def create_or_replace_assessment(db: Session, payload: AssessmentCreate) -> Asse
         entries = db.execute(
             select(_DE).where(_DE.assessment_id == assessment.id).order_by(_DE.rank.asc())
         ).scalars().all()
-        top_ids = [e.diagnosis_term_id for e in entries]
+        # Consider only entries that have been mapped to a canonical term
+        top_ids = [e.diagnosis_term_id for e in entries if e.diagnosis_term_id is not None]
         if not top_ids:
             assessment.top1_correct = None
             assessment.top3_correct = None

@@ -155,7 +155,8 @@ class DiagnosisEntry(Base):
     assessment_id = Column(Integer, ForeignKey("assessments.id"), nullable=False)
     rank = Column(Integer, nullable=False)
     raw_text = Column(String)
-    diagnosis_term_id = Column(Integer, ForeignKey("diagnosis_terms.id"), nullable=False)
+    # Optional mapping to canonical term; CN free-text flow may omit this
+    diagnosis_term_id = Column(Integer, ForeignKey("diagnosis_terms.id"), nullable=True)
 
     assessment = relationship("Assessment", back_populates="diagnosis_entries")
     diagnosis_term = relationship("DiagnosisTerm", back_populates="diagnosis_entries")

@@ -1,0 +1,883 @@
+[
+  {
+    "id": 0,
+    "canonical": "subungual hematoma",
+    "synonyms": [
+      "subungual-hematoma",
+      "bleeding under the nail",
+      "blood under the nail",
+      "runner's toe",
+      "tennis toe"
+    ],
+    "abbreviations": [],
+    "misspellings": [
+      "subungal hematoma"
+    ]
+  },
+  {
+    "id": 1,
+    "canonical": "wart",
+    "synonyms": [
+      "verruca",
+      "common wart",
+      "verruca vulgaris"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 2,
+    "canonical": "verruca plana",
+    "synonyms": [
+      "verruca-plana",
+      "flat wart"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 3,
+    "canonical": "steatocystoma multiplex",
+    "synonyms": [
+      "steatocystoma-multiplex",
+      "sebocystomatosis"
+    ],
+    "abbreviations": [
+      "SM"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 4,
+    "canonical": "skin tag",
+    "synonyms": [
+      "skin-tag",
+      "acrochordon",
+      "fibroepithelial polyp"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 5,
+    "canonical": "congenital nevus",
+    "synonyms": [
+      "congenital naevus",
+      "congenital-nevus",
+      "congenital melanocytic nevus"
+    ],
+    "abbreviations": [
+      "CMN"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 6,
+    "canonical": "organoid nevus",
+    "synonyms": [
+      "organoid naevus",
+      "organoid-nevus",
+      "nevus sebaceous",
+      "nevus sebaceus of Jadassohn"
+    ],
+    "abbreviations": [
+      "NS"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 7,
+    "canonical": "seborrheic keratosis",
+    "synonyms": [
+      "seborrheic-keratosis",
+      "seborrhoeic keratosis",
+      "seborrheic verruca",
+      "senile wart",
+      "basal cell papilloma"
+    ],
+    "abbreviations": [],
+    "misspellings": [
+      "seborreic keratosis"
+    ]
+  },
+  {
+    "id": 8,
+    "canonical": "neurofibroma",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 9,
+    "canonical": "hemangioma",
+    "synonyms": [
+      "haemangioma",
+      "strawberry mark",
+      "cherry angioma"
+    ],
+    "abbreviations": [],
+    "misspellings": [
+      "hemangeoma"
+    ]
+  },
+  {
+    "id": 10,
+    "canonical": "lymphangioma",
+    "synonyms": [
+      "lymphatic malformation"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 11,
+    "canonical": "angiokeratoma",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 12,
+    "canonical": "epidermal cyst",
+    "synonyms": [
+      "epidermal inclusion cyst",
+      "epidermoid cyst",
+      "epidermal-cyst",
+      "sebaceous cyst"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 13,
+    "canonical": "sebaceous hyperplasia",
+    "synonyms": [
+      "sebaceous-hyperplasia"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 14,
+    "canonical": "xanthelasma",
+    "synonyms": [
+      "xanthelasma palpebrarum"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 15,
+    "canonical": "epidermal nevus",
+    "synonyms": [
+      "epidermal naevus",
+      "epidermal-nevus"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 16,
+    "canonical": "angiofibroma",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 17,
+    "canonical": "juvenile xanthogranuloma",
+    "synonyms": [
+      "juvenile-xanthogranuloma"
+    ],
+    "abbreviations": [
+      "JXG"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 18,
+    "canonical": "becker nevus",
+    "synonyms": [
+      "becker naevus",
+      "becker-nevus",
+      "Becker's melanosis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 19,
+    "canonical": "pyogenic granuloma",
+    "synonyms": [
+      "lobular capillary haemangioma",
+      "lobular capillary hemangioma",
+      "pyogenic-granuloma"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 20,
+    "canonical": "melanocytic nevus",
+    "synonyms": [
+      "melanocytic naevus",
+      "melanocytic-nevus",
+      "mole"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 21,
+    "canonical": "nevus spilus",
+    "synonyms": [
+      "naevus spilus",
+      "nevus-spilus",
+      "speckled lentiginous nevus"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 22,
+    "canonical": "neurofibromatosis",
+    "synonyms": [],
+    "abbreviations": [
+      "NF"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 23,
+    "canonical": "blue nevus",
+    "synonyms": [
+      "blue naevus",
+      "blue-nevus"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 24,
+    "canonical": "actinic keratosis",
+    "synonyms": [
+      "solar keratosis",
+      "actinic-keratosis"
+    ],
+    "abbreviations": [
+      "AK"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 25,
+    "canonical": "lentigo",
+    "synonyms": [
+      "age spot",
+      "liver spot",
+      "sun spot",
+      "lentigo senilis",
+      "lentigo solaris"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 26,
+    "canonical": "dermatofibroma",
+    "synonyms": [
+      "benign fibrous histiocytoma"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 27,
+    "canonical": "tinea corporis",
+    "synonyms": [
+      "tinea-corporis",
+      "ringworm"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 28,
+    "canonical": "tinea faciale",
+    "synonyms": [
+      "tinea-faciale",
+      "tinea faciei",
+      "facial ringworm"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 29,
+    "canonical": "tinea cruris",
+    "synonyms": [
+      "dhobi itch",
+      "groin tinea",
+      "jock itch",
+      "tinea inguinalis",
+      "tinea-cruris"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 30,
+    "canonical": "tinea pedis",
+    "synonyms": [
+      "athlete's foot",
+      "tinea-pedis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 31,
+    "canonical": "onychomycosis",
+    "synonyms": [
+      "tinea unguium",
+      "fungal nail infection"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 32,
+    "canonical": "tinea versicolor",
+    "synonyms": [
+      "pityriasis versicolor",
+      "tinea-versicolor"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 33,
+    "canonical": "malignant melanoma",
+    "synonyms": [
+      "malignant-melanoma",
+      "melanoma"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 34,
+    "canonical": "squamous cell carcinoma",
+    "synonyms": [
+      "squamous-cell-carcinoma",
+      "squamous cell cancer"
+    ],
+    "abbreviations": [
+      "SCC"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 35,
+    "canonical": "basal cell carcinoma",
+    "synonyms": [
+      "basal-cell-carcinoma",
+      "basal cell cancer",
+      "rodent ulcer"
+    ],
+    "abbreviations": [
+      "BCC"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 36,
+    "canonical": "keratoacanthoma",
+    "synonyms": [],
+    "abbreviations": [
+      "KA"
+    ],
+    "misspellings": [
+      "keratocanthoma",
+      "kerato acanthoma",
+      "kerato-acanthoma"
+    ]
+  },
+  {
+    "id": 37,
+    "canonical": "bowen disease",
+    "synonyms": [
+      "bowen's disease",
+      "bowen-disease",
+      "squamous cell carcinoma in situ"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 38,
+    "canonical": "urticaria pigmentosa",
+    "synonyms": [
+      "urticaria-pigmentosa"
+    ],
+    "abbreviations": [
+      "UP"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 39,
+    "canonical": "pompholyx",
+    "synonyms": [
+      "dyshidrotic eczema",
+      "dyshidrosis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 40,
+    "canonical": "urticaria",
+    "synonyms": [
+      "hives",
+      "nettle rash"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 41,
+    "canonical": "acute generalized exanthematous pustulosis",
+    "synonyms": [
+      "acute-generalized-exanthematous-pustulosis"
+    ],
+    "abbreviations": [
+      "AGEP"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 42,
+    "canonical": "vitiligo",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 43,
+    "canonical": "xerotic eczema",
+    "synonyms": [
+      "xerotic-eczema",
+      "asteatotic eczema",
+      "eczema craquele",
+      "winter itch"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 44,
+    "canonical": "pyoderma gangrenosum",
+    "synonyms": [
+      "pyoderma-gangrenosum"
+    ],
+    "abbreviations": [
+      "PG"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 45,
+    "canonical": "contact dermatitis",
+    "synonyms": [
+      "contact-dermatitis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 46,
+    "canonical": "alopecia areata",
+    "synonyms": [
+      "alopecia-areata",
+      "spot baldness"
+    ],
+    "abbreviations": [
+      "AA"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 47,
+    "canonical": "hand eczema",
+    "synonyms": [
+      "hand-eczema",
+      "hand dermatitis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 48,
+    "canonical": "exfoliative dermatitis",
+    "synonyms": [
+      "exfoliative-dermatitis",
+      "erythroderma"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 49,
+    "canonical": "nummular eczema",
+    "synonyms": [
+      "nummular-eczema",
+      "nummular dermatitis",
+      "discoid eczema"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 50,
+    "canonical": "lichen planus",
+    "synonyms": [
+      "lichen-planus"
+    ],
+    "abbreviations": [
+      "LP"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 51,
+    "canonical": "erythema annulare centrifugum",
+    "synonyms": [
+      "erythema-annulare-centrifugum"
+    ],
+    "abbreviations": [
+      "EAC"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 52,
+    "canonical": "seborrheic dermatitis",
+    "synonyms": [
+      "seborrheic-dermatitis",
+      "seborrhoeic dermatitis",
+      "seborrheic eczema",
+      "dandruff"
+    ],
+    "abbreviations": [],
+    "misspellings": [
+      "seborreic dermatitis"
+    ]
+  },
+  {
+    "id": 53,
+    "canonical": "granuloma annulare",
+    "synonyms": [
+      "granuloma-annulare"
+    ],
+    "abbreviations": [
+      "GA"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 54,
+    "canonical": "pustular psoriasis",
+    "synonyms": [
+      "pustular-psoriasis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 55,
+    "canonical": "palmoplantar pustulosis",
+    "synonyms": [
+      "palmoplantar-pustulosis"
+    ],
+    "abbreviations": [
+      "PPP"
+    ],
+    "misspellings": [
+      "palmo plantar pustulosis",
+      "palmo-plantar pustulosis"
+    ]
+  },
+  {
+    "id": 56,
+    "canonical": "lupus erythematosus",
+    "synonyms": [
+      "lupus-erythematosus",
+      "lupus"
+    ],
+    "abbreviations": [
+      "LE"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 57,
+    "canonical": "insect bite",
+    "synonyms": [
+      "insect-bite"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 58,
+    "canonical": "lichen amyloidosis",
+    "synonyms": [
+      "lichen-amyloidosis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 59,
+    "canonical": "lichen simplex chronicus",
+    "synonyms": [
+      "lichen-simplex-chronicus",
+      "neurodermatitis"
+    ],
+    "abbreviations": [
+      "LSC"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 60,
+    "canonical": "drug eruption",
+    "synonyms": [
+      "drug-eruption"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 61,
+    "canonical": "morphea",
+    "synonyms": [
+      "localized scleroderma"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 62,
+    "canonical": "psoriasis",
+    "synonyms": [
+      "psoriasis vulgaris"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 63,
+    "canonical": "erythema multiforme",
+    "synonyms": [
+      "erythema-multiforme"
+    ],
+    "abbreviations": [
+      "EM"
+    ],
+    "misspellings": [
+      "erythema multiform"
+    ]
+  },
+  {
+    "id": 64,
+    "canonical": "vasculitis",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 65,
+    "canonical": "amyloidosis",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 66,
+    "canonical": "confluent and reticulated papillomatosis",
+    "synonyms": [
+      "confluent-and-reticulated-papillomatosis",
+      "Gougerot-Carteaud syndrome"
+    ],
+    "abbreviations": [
+      "CARP"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 67,
+    "canonical": "folliculitis",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": [
+      "foliculitis"
+    ]
+  },
+  {
+    "id": 68,
+    "canonical": "furuncle",
+    "synonyms": [
+      "boil"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 69,
+    "canonical": "inflamed cyst",
+    "synonyms": [
+      "inflamed-cyst"
+    ],
+    "abbreviations": [],
+    "misspellings": [
+      "inflammed cyst"
+    ]
+  },
+  {
+    "id": 70,
+    "canonical": "paronychia",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 71,
+    "canonical": "cellulitis",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": [
+      "cellulitus"
+    ]
+  },
+  {
+    "id": 72,
+    "canonical": "abscess",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 73,
+    "canonical": "prurigo pigmentosa",
+    "synonyms": [
+      "prurigo-pigmentosa",
+      "keto rash"
+    ],
+    "abbreviations": [
+      "PP"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 74,
+    "canonical": "impetigo",
+    "synonyms": [
+      "school sores"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 75,
+    "canonical": "acne",
+    "synonyms": [
+      "acne vulgaris"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 76,
+    "canonical": "staphylococcal scalded skin syndrome",
+    "synonyms": [
+      "staphylococcal-scalded-skin-syndrome",
+      "Ritter's disease"
+    ],
+    "abbreviations": [
+      "SSSS"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 77,
+    "canonical": "herpes zoster",
+    "synonyms": [
+      "shingles",
+      "herpes-zoster"
+    ],
+    "abbreviations": [
+      "HZ"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 78,
+    "canonical": "herpes simplex",
+    "synonyms": [
+      "herpes simplex virus",
+      "herpes-simplex",
+      "cold sore",
+      "fever blister"
+    ],
+    "abbreviations": [
+      "HSV"
+    ],
+    "misspellings": []
+  },
+  {
+    "id": 79,
+    "canonical": "varicella",
+    "synonyms": [
+      "chickenpox"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 80,
+    "canonical": "eczema herpeticum",
+    "synonyms": [
+      "eczema-herpeticum"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 81,
+    "canonical": "atopic dermatitis",
+    "synonyms": [
+      "atopic eczema",
+      "atopic-dermatitis"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 82,
+    "canonical": "scabies",
+    "synonyms": [],
+    "abbreviations": [],
+    "misspellings": []
+  },
+  {
+    "id": 83,
+    "canonical": "pityriasis rosea",
+    "synonyms": [
+      "pityriasis-rosea"
+    ],
+    "abbreviations": [],
+    "misspellings": []
+  }
+]
