@@ -87,8 +87,11 @@ app.include_router(api_router, prefix="/api", include_in_schema=False)
 # Add startup event to create tables and initialize data
 @app.on_event("startup")
 async def on_startup():
-    # Initialize database with tables and initial data
-    await init_db()
+    # Initialize database with tables and initial data (configurable)
+    if settings.INIT_DB_ON_STARTUP:
+        await init_db()
+    else:
+        print("INIT_DB_ON_STARTUP is false; skipping database initialization on startup")
 
 # Add shutdown event to close resources
 @app.on_event("shutdown")

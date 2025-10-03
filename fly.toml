@@ -4,7 +4,7 @@
 #
 
 app = 'reader-study-cn-backend'
-primary_region = 'sin'
+primary_region = 'syd'
 
 [build]
 

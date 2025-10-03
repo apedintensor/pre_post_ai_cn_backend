@@ -43,6 +43,9 @@ class Settings(BaseSettings):
     # Game
     GAME_BLOCK_SIZE: int = int(os.getenv("GAME_BLOCK_SIZE", "3"))
 
+    # Startup behavior
+    INIT_DB_ON_STARTUP: bool = os.getenv("INIT_DB_ON_STARTUP", "true").lower() in ("1", "true", "yes")
+
     class Config:
         case_sensitive = True
         env_file = ".env"
